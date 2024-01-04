@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "watchdogtry"
+version = "0.1.0"
+description = ""
+authors = ["Nick Sawe <codekip@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+watchdog = "^3.0.0"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
